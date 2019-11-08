@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ari_rgbd_sensors</name>
+  <version>0.0.2</version>
+  <description>IVO-specific RGBD sensors launch and config files.</description>
+  <maintainer email="procopio.stein@pal-robotics.com">Procópio Stein</maintainer>
+  <maintainer email="sai.kishor@pal-robotics.com">Sai Kishor Kothakota</maintainer>
+  <license>Apache License 2.0</license>
+  <author email="victor.lopez@pal-robotics.com">Victor Lopez</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>pal_usb_utils</exec_depend>
+  <exec_depend>realsense2_camera</exec_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
