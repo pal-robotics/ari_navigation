@@ -2,8 +2,8 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.5 (2020-01-07)
+------------------
 * Merge branch 'ari_calib_odom_in_file' into 'erbium-devel'
   Ari calib odom in file
   See merge request robots/ari_navigation!3
