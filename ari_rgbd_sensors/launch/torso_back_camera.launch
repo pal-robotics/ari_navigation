@@ -7,8 +7,8 @@
   <arg name="tf_prefix_camera"  default="$(arg camera_name)"/>
   <arg name="enable_fisheye"    default="true"/>
   <arg name="initial_reset"     default="false"/>
-  <arg name="topic_odom_in"     default="odom_in"/>
-  <arg name="calib_odom_file"   default=""/>
+  <arg name="topic_odom_in"     default="/mobile_base_controller/odom"/>
+  <arg name="calib_odom_file"   default="$(find ari_rgbd_sensors)/config/calibration_odometry.json"/>
   <arg name="publish_odom_tf"   default="false"/>
 
   <group ns="$(arg camera_name)">
@@ -22,9 +22,11 @@
       <arg name="topic_odom_in"         value="$(arg topic_odom_in)"/>
       <arg name="calib_odom_file"       value="$(arg calib_odom_file)"/>
       <arg name="publish_odom_tf"       value="$(arg publish_odom_tf)"/>
+      <arg name="publish_tf"            value="false"/>
+      <!-- This is so the disparity of the fisheye2 is referenced wrt fisheye1-->
+      <arg name="fisheye2_optical_frame_id"       value="torso_back_camera_fisheye1_optical_frame"/>
+
     </include>
   </group>
-
-  <node pkg="tf" type="static_transform_publisher" name="torso_camera_base_link_broadcaster" args="-0.3275 0.009 1.0337 3.14 0.26 0.0 base_link torso_back_camera_pose_frame 100" />:
 
 </launch>
