@@ -2,6 +2,11 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add missing dependencies
+* Contributors: Victor Lopez
+
 0.0.6 (2020-01-09)
 ------------------
 * Add head_front_camera launch
