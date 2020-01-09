@@ -11,6 +11,8 @@
   <buildtool_depend>catkin</buildtool_depend>
   <exec_depend>pal_usb_utils</exec_depend>
   <exec_depend>realsense2_camera</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  <exec_depend>topic_tools</exec_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
