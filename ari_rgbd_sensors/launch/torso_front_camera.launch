@@ -22,4 +22,8 @@
     </include>
   </group>
 
+  <include file="$(find ari_rgbd_sensors)/launch/rgbd_cloud_laser.launch"/>
+
+  <node pkg="tf2_ros" type="static_transform_publisher" name="rgbd_scan_broadcaster" args="-1 0 0 0 0 0 base_link rgbd_laser_link" />
+
 </launch>
