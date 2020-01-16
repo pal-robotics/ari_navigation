@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <launch>
   <arg name="cloud" default="/torso_front_camera/depth/color/points"/>
   <arg name="scan"  default="/rgbd_scan"/>

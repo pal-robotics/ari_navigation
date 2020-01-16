@@ -6,7 +6,7 @@
   <arg name="mapping" default="karto"/>
 
   <!-- SLAM -->
-  <include file="$(find ari_2dnav)/launch/mapping_$(arg mapping).launch">
+  <include file="$(find pal_navigation_cfg_ari)/launch/mapping_$(arg mapping).launch">
     <arg name="scan" value="$(arg scan)"/>
     <arg name="laser_model" value="$(arg laser_model)"/>
   </include>

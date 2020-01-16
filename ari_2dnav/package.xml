@@ -9,5 +9,5 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <exec_depend>ari_rgbd_sensors</exec_depend>
+  <exec_depend>pal_navigation_cfg_ari</exec_depend>
 </package>
