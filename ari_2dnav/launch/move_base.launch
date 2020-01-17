@@ -3,7 +3,7 @@
 
   <arg name="config_base_path" default="$(find pal_navigation_cfg_ari)"/>
   <arg name="global_planner" default="global_planner"/>
-  <arg name="local_planner"  default="pal"/>
+  <arg name="local_planner"  default="teb"/>
   
   <!-- Navigation -->
   <include file="$(find pal_navigation_cfg_ari)/launch/move_base.launch">
