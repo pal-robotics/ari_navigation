@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
-  <arg name="cloud" default="/torso_front_camera/depth/color/points"/>
-  <arg name="scan"  default="/rgbd_scan"/>
+  <arg name="cloud" default="/torso_front_camera/depth/points"/>
+  <arg name="scan"  default="rgbd_scan"/>
 
   <node pkg="pointcloud_to_laserscan" type="pointcloud_to_laserscan_node" name="pointcloud_to_laserscan">
     <remap from="cloud_in" to="$(arg cloud)"/>
@@ -9,4 +9,6 @@
 
     <rosparam file="$(find ari_rgbd_sensors)/config/rgbd_cloud_laser.yaml" command="load"/>
   </node>
+
+
 </launch>
