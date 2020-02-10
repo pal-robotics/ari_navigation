@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-  <arg name="cloud" default="/torso_front_camera/depth/points"/>
+  <arg name="cloud" default="/torso_front_camera/depth/color/points"/>
   <arg name="scan"  default="rgbd_scan"/>
 
   <node pkg="pointcloud_to_laserscan" type="pointcloud_to_laserscan_node" name="pointcloud_to_laserscan">
