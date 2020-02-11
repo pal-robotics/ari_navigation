@@ -2,6 +2,15 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* removed virtual tf for laser from camera
+* fixed input cloud name
+* updated default args for launches
+* Modified and created the structure for navigation for ARI adding the localization move_base state_machine
+* added files for PC2LS
+* Contributors: Procópio Stein, alessandrodifava
+
 0.0.7 (2020-01-09)
 ------------------
 * Add missing dependencies
