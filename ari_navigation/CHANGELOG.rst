@@ -2,8 +2,8 @@
 Changelog for package ari_navigation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.8 (2020-02-11)
+------------------
 * Added ari_maps, modified the local planner to teb for move_base launch
 * Contributors: alessandrodifava
 

@@ -2,8 +2,8 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.8 (2020-02-11)
+------------------
 * updated default args for launches
 * Added ari_maps, modified the local planner to teb for move_base launch
 * Modified and created the structure for navigation for ARI adding the localization move_base state_machine

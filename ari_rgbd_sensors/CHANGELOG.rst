@@ -2,8 +2,8 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.8 (2020-02-11)
+------------------
 * removed virtual tf for laser from camera
 * fixed input cloud name
 * updated default args for launches
