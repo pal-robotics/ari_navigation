@@ -11,7 +11,7 @@
     <arg name="config_base_path" value="$(arg config_base_path)"/>
     <arg name="global_planner" value="$(arg global_planner)"/>
     <arg name="local_planner"  value="$(arg local_planner)"/>
-    <arg name="public_sim"     default="false"/>
+    <arg name="public_sim"     value="$(arg public_sim)"/>
   </include>
 
 </launch>

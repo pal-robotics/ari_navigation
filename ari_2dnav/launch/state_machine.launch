@@ -6,7 +6,7 @@
   
   <include file="$(find pal_navigation_cfg_ari)/launch/state_machine.launch">
     <arg name="state"  value="$(arg state)"/>
-    <arg name="public_sim"     default="false"/>
+    <arg name="public_sim"     value="$(arg public_sim)"/>
   </include>
 
 </launch>
