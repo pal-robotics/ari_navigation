@@ -2,8 +2,8 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.9 (2020-03-13)
+------------------
 * Fix relay topic name
 * Use relay instead of republish for raspi images, saves a lot of CPU
 * Merge branch 'add-elp-launch' into 'ferrum-devel'
