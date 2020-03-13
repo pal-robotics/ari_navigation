@@ -2,6 +2,14 @@
 Changelog for package ari_navigation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'fix-deps' into 'ferrum-devel'
+  fixed dependencies
+  See merge request robots/ari_navigation!8
+* fixed dependencies
+* Contributors: Procópio Stein, procopiostein
+
 0.0.8 (2020-02-11)
 ------------------
 * Added ari_maps, modified the local planner to teb for move_base launch

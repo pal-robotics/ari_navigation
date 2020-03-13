@@ -2,6 +2,23 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Fix relay topic name
+* Use relay instead of republish for raspi images, saves a lot of CPU
+* Merge branch 'add-elp-launch' into 'ferrum-devel'
+  added elp launch and dep for front camera
+  See merge request robots/ari_navigation!7
+* Parametrize elp_front.launch
+* Update elp_front.launch
+* Removed comments, set as arguments remaining parameters
+* Add argument to set device
+* Add device id to launch file
+* missing format param
+* added simple launch for elp
+* added elp launch and dep for front camera
+* Contributors: Procópio Stein, Victor Lopez, procopiostein, saracooper
+
 0.0.8 (2020-02-11)
 ------------------
 * removed virtual tf for laser from camera

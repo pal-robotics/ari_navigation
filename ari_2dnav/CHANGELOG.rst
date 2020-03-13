@@ -2,6 +2,21 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'fix-deps' into 'ferrum-devel'
+  fixed dependencies
+  See merge request robots/ari_navigation!8
+* fixed dependencies
+* Merge branch 'ari_public_sim' into 'ferrum-devel'
+  Added the params for the public sim
+  See merge request robots/ari_navigation!6
+* Fix some topics displayed on rviz
+* Add navigation_public_sim.rviz
+* Fixing the public sim params
+* Added the params for the public sim
+* Contributors: Procópio Stein, Sara Cooper, alessandrodifava, procopiostein, saracooper
+
 0.0.8 (2020-02-11)
 ------------------
 * updated default args for launches

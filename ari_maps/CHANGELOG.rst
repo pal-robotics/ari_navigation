@@ -2,6 +2,9 @@
 Changelog for package ari_maps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.8 (2020-02-11)
 ------------------
 * added small office map
