@@ -11,9 +11,10 @@
   <author email="victor.lopez@pal-robotics.com">Victor Lopez</author>
 
   <buildtool_depend>catkin</buildtool_depend>
-  <exec_depend>ari_rgbd_sensors</exec_depend>
+
   <exec_depend>ari_2dnav</exec_depend>
   <exec_depend>ari_maps</exec_depend>
+  <exec_depend>ari_rgbd_sensors</exec_depend>
 
   <export>
     <metapackage/>
