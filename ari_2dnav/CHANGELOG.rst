@@ -2,6 +2,11 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* better viz
+* Contributors: Procópio Stein
+
 0.0.9 (2020-03-13)
 ------------------
 * Merge branch 'fix-deps' into 'ferrum-devel'

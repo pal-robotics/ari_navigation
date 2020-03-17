@@ -2,6 +2,11 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* better ls2pc config
+* Contributors: Procópio Stein
+
 0.0.9 (2020-03-13)
 ------------------
 * Fix relay topic name
