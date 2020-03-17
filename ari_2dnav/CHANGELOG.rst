@@ -2,8 +2,8 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.10 (2020-03-17)
+-------------------
 * better viz
 * Contributors: Procópio Stein
 
