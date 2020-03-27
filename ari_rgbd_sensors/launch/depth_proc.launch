@@ -2,11 +2,14 @@
 <launch>
   <param name="use_sim_time" value="true" />
   <arg name="camera_name" default="torso_front_camera" />
+  <arg name="depth_camera_info" value="/$(arg camera_name)/depth/color/camera_info"/>
   <arg name="rgb_camera_info" value="/$(arg camera_name)/color/camera_info"/>
   <arg name="rgb_img_rect" value="/$(arg camera_name)/color/image_raw"/>  <!--Rectified color image-->
   <arg name="depReg_imgraw" value="/$(arg camera_name)/depth/color/image_raw"/>  <!--Raw depth image-->
   <arg name="depReg_imgrect" value="/$(arg camera_name)/depth/color/image_rect"/>  <!--Raw depth image-->
   <arg name="out_cloud" value="/$(arg camera_name)/depth_registered/points"/>
+  <arg name="depth_registered_camera_info" value="/$(arg camera_name)/depth_registered/camera_info"/>
+  <arg name="out_image" value="/$(arg camera_name)/depth_registered/image_raw"/>
 
   <node pkg="nodelet" type="nodelet" name="standalone_nodelet" args="manager" output="screen"/>
 
@@ -15,6 +18,19 @@
     <remap from="image_raw" to="$(arg depReg_imgraw)"/>
     <remap from="image" to="$(arg depReg_imgrect)"/>
   </node>
+
+  
+  <!-- Create a depth image registered to RGB -->
+  <node pkg="nodelet" type="nodelet" name="register"  args="load depth_image_proc/register standalone_nodelet --no-bond">
+<!--    <param name="queue_size" value="10" />-->
+    <remap from="rgb/camera_info" to="$(arg rgb_camera_info)"/>
+    <remap from="depth/camera_info" to="$(arg depth_camera_info)"/>
+    <remap from="depth/image_rect" to="$(arg depReg_imgrect)"/>
+    <remap from="depth_registered/camera_info" to="$(arg depth_registered_camera_info)"/>
+    <remap from="depth_registered/image_rect" to="$(arg out_image)"/>
+
+  </node>
+
 
   <!-- Construct point cloud of the rgb and depth topics -->
   <node pkg="nodelet" type="nodelet" name="points_xyzrgb" args="load depth_image_proc/point_cloud_xyzrgb standalone_nodelet --no-bond">
