@@ -2,8 +2,8 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.11 (2020-05-20)
+-------------------
 * Merge branch 'fixed-depth-proc' into 'ferrum-devel'
   added launch file for registering rgb and depth
   See merge request robots/ari_navigation!11
