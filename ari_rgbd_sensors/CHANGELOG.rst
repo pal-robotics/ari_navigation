@@ -2,6 +2,20 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'fixed-depth-proc' into 'ferrum-devel'
+  added launch file for registering rgb and depth
+  See merge request robots/ari_navigation!11
+* added launch file for registering rgb and depth
+* Merge branch 'depth-image-proc' into 'ferrum-devel'
+  Depth image proc
+  See merge request robots/ari_navigation!10
+* Remove unecessary parts in depth_proc launch
+* Update to create depth registered image topic
+* Depth image processing launch file to produce /depth_registered/points topic
+* Contributors: Sara Cooper, federiconardi, procopiostein
+
 0.0.10 (2020-03-17)
 -------------------
 * better ls2pc config

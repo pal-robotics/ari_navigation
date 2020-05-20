@@ -2,6 +2,11 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* updated public rviz
+* Contributors: Procópio Stein
+
 0.0.10 (2020-03-17)
 -------------------
 * better viz
