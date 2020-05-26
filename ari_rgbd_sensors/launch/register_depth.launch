@@ -5,8 +5,8 @@
   <arg name="rgb_img" value="/$(arg camera_name)/color/image_raw"/>  
   <arg name="dpt_camera_info" value="/$(arg camera_name)/depth/camera_info"/>
   <arg name="dpt_img" value="/$(arg camera_name)/depth/image_raw"/>  
-  <arg name="dpt_registered_camera_info" value="/$(arg camera_name)/depth_registered/camera_info"/>  
-  <arg name="dpt_registered_img" value="/$(arg camera_name)/depth_registered/image_raw"/>  
+  <arg name="dpt_registered_camera_info" value="/$(arg camera_name)/aligned_depth_to_color/camera_info"/>  
+  <arg name="dpt_registered_img" value="/$(arg camera_name)/aligned_depth_to_color/image_raw"/>  
 
   <node pkg="nodelet" type="nodelet" name="standalone_nodelet" args="manager" output="screen"/>
   
