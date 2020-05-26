@@ -2,8 +2,8 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.12 (2020-05-26)
+-------------------
 * Merge branch 'frame-skip' into 'ferrum-devel'
   setting pointcloud_frame_skip parameter
   See merge request robots/ari_navigation!13

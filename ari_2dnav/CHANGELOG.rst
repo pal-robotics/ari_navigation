@@ -2,8 +2,8 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.12 (2020-05-26)
+-------------------
 * Merge branch 'small-map' into 'ferrum-devel'
   added small-textured-office map
   See merge request robots/ari_navigation!12
