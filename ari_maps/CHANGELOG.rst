@@ -2,6 +2,15 @@
 Changelog for package ari_maps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'small-map' into 'ferrum-devel'
+  added small-textured-office map
+  See merge request robots/ari_navigation!12
+* added new map for simulated environment + updated image topics
+* added small-textured-office map
+* Contributors: Federico Nardi, federiconardi, procopiostein
+
 0.0.11 (2020-05-20)
 -------------------
 

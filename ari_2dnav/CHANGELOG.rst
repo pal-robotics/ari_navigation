@@ -2,6 +2,14 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'small-map' into 'ferrum-devel'
+  added small-textured-office map
+  See merge request robots/ari_navigation!12
+* added new map for simulated environment + updated image topics
+* Contributors: Federico Nardi, procopiostein
+
 0.0.11 (2020-05-20)
 -------------------
 * updated public rviz
