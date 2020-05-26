@@ -9,6 +9,7 @@
   <arg name="initial_reset"     default="false"/>
   <arg name="align_depth"       default="true"/>
   <arg name="filters"           default="pointcloud"/>
+  <arg name="pointcloud_frame_skip" default="5" />
 
   <group ns="$(arg camera_name)">
     <include file="$(find realsense2_camera)/launch/includes/nodelet.launch.xml">
@@ -19,6 +20,7 @@
       <arg name="initial_reset"         value="$(arg initial_reset)"/>
       <arg name="align_depth"           value="$(arg align_depth)"/>
       <arg name="filters"               value="$(arg filters)"/>
+      <arg name="pointcloud_frame_skip" value="$(arg pointcloud_frame_skip)"/>
     </include>
   </group>
 
