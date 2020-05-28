@@ -23,7 +23,4 @@
       <arg name="pointcloud_frame_skip" value="$(arg pointcloud_frame_skip)"/>
     </include>
   </group>
-
-  <include file="$(find ari_rgbd_sensors)/launch/rgbd_cloud_laser.launch"/>
-
 </launch>
