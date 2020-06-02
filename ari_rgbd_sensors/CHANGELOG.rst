@@ -2,8 +2,8 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.13 (2020-06-02)
+-------------------
 * Merge branch 'no-rgbd-laser' into 'ferrum-devel'
   removing rgbd laser scan
   See merge request robots/ari_navigation!14
