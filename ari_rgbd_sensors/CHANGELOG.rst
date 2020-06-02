@@ -2,6 +2,14 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'no-rgbd-laser' into 'ferrum-devel'
+  removing rgbd laser scan
+  See merge request robots/ari_navigation!14
+* removing rgbd laser scan
+* Contributors: Federico Nardi, procopiostein
+
 0.0.12 (2020-05-26)
 -------------------
 * Merge branch 'frame-skip' into 'ferrum-devel'
