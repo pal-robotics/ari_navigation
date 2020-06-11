@@ -2,8 +2,8 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.14 (2020-06-11)
+-------------------
 * Merge branch 'json-load' into 'ferrum-devel'
   added loading of json file
   See merge request robots/ari_navigation!15
