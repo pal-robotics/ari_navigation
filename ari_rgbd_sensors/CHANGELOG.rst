@@ -2,6 +2,14 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'json-load' into 'ferrum-devel'
+  added loading of json file
+  See merge request robots/ari_navigation!15
+* added loading of json file
+* Contributors: Federico Nardi, procopiostein
+
 0.0.13 (2020-06-02)
 -------------------
 * Merge branch 'no-rgbd-laser' into 'ferrum-devel'
