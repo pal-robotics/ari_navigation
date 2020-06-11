@@ -5,12 +5,29 @@
   <arg name="device_type"       default="d4.5"/>    <!-- Note: using regular expression. match D435, D435i, D415... -->
   <arg name="camera_name"       value="torso_front_camera"/>
   <arg name="tf_prefix_camera"  default="$(arg camera_name)"/>
-  <arg name="enable_pointcloud" default="true"/>
   <arg name="initial_reset"     default="false"/>
   <arg name="align_depth"       default="true"/>
   <arg name="filters"           default="pointcloud"/>
   <arg name="pointcloud_frame_skip" default="5" />
   <arg name="json_file_path"      default="$(find ari_rgbd_sensors)/config/config.json"/> 
+  
+  <arg name="depth_fps"           default="30"/>
+  <arg name="infra_fps"           default="30"/>
+  <arg name="color_fps"           default="30"/>
+
+  <arg name="enable_sync"         default="true"/>
+  <arg name="enable_depth"         default="true"/>
+  <arg name="enable_pointcloud" default="true"/>
+  <arg name="enable_color"        default="true"/>
+  
+  <arg name="infra_width"         default="848"/>
+  <arg name="infra_height"        default="480"/>
+
+  <arg name="depth_width"         default="848"/>
+  <arg name="depth_height"        default="480"/>
+  
+  <arg name="color_width"         default="848"/>
+  <arg name="color_height"        default="480"/>
 
   <group ns="$(arg camera_name)">
     <include file="$(find realsense2_camera)/launch/includes/nodelet.launch.xml">
@@ -23,6 +40,18 @@
       <arg name="filters"               value="$(arg filters)"/>
       <arg name="pointcloud_frame_skip" value="$(arg pointcloud_frame_skip)"/>
       <arg name="json_file_path"        value="$(arg json_file_path)"/>
+      <arg name="enable_depth"          value="$(arg enable_depth)"/>
+      <arg name="infra_width"           value="$(arg infra_width)"/>
+      <arg name="infra_height"          value="$(arg infra_height)"/>   
+      <arg name="depth_width"           value="$(arg depth_width)"/>
+      <arg name="depth_height"          value="$(arg depth_height)"/>   
+      <arg name="color_width"           value="$(arg color_width)"/>
+      <arg name="color_height"          value="$(arg color_height)"/>   
+      <arg name="depth_fps"             value="$(arg depth_fps)"/>
+      <arg name="infra_fps"             value="$(arg infra_fps)"/>
+      <arg name="color_fps"             value="$(arg color_fps)"/>
+      <arg name="enable_sync"           value="$(arg enable_sync)"/>
+      <arg name="enable_color"          value="$(arg enable_color)"/>
     </include>
   </group>
 </launch>
