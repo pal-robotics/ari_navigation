@@ -2,6 +2,11 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Fix camera_info from raspi
+* Contributors: Victor Lopez
+
 0.0.14 (2020-06-11)
 -------------------
 * Merge branch 'json-load' into 'ferrum-devel'
