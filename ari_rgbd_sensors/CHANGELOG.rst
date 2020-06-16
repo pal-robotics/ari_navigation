@@ -2,8 +2,8 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.15 (2020-06-16)
+-------------------
 * Fix camera_info from raspi
 * Contributors: Victor Lopez
 
