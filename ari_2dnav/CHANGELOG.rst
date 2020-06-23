@@ -2,8 +2,8 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.16 (2020-06-23)
+-------------------
 * updated rviz config
 * Contributors: Procópio Stein
 
