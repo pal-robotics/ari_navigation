@@ -2,6 +2,14 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'rviz-adv-nav' into 'ferrum-devel'
+  updated rviz config
+  See merge request robots/ari_navigation!17
+* updated rviz config
+* Contributors: Procópio Stein, procopiostein
+
 0.0.16 (2020-06-23)
 -------------------
 * updated rviz config

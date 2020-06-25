@@ -2,6 +2,9 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.16 (2020-06-23)
 -------------------
 * modified torso_front_camera.launch to get json and set proper image sizes
