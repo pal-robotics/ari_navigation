@@ -2,8 +2,8 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.18 (2020-06-30)
+-------------------
 * rviz config for small screens
 * Contributors: Procópio Stein
 
