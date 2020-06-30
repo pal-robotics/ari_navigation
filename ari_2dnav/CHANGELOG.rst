@@ -2,6 +2,11 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* rviz config for small screens
+* Contributors: Procópio Stein
+
 0.0.17 (2020-06-25)
 -------------------
 * Merge branch 'rviz-adv-nav' into 'ferrum-devel'
