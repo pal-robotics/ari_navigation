@@ -2,6 +2,14 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'presets-config' into 'ferrum-devel'
+  updating config to high accuracy preset
+  See merge request robots/ari_navigation!18
+* updating config to high accuracy preset
+* Contributors: Federico Nardi, federiconardi
+
 0.0.18 (2020-06-30)
 -------------------
 
