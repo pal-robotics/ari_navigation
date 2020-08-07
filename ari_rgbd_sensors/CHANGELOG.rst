@@ -2,6 +2,14 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'exposure' into 'ferrum-devel'
+  Exposure controls on master_calib
+  See merge request robots/ari_navigation!19
+* Exposure controls on master_calib
+* Contributors: davidfernandez, luca
+
 0.0.19 (2020-07-28)
 -------------------
 * Merge branch 'presets-config' into 'ferrum-devel'
