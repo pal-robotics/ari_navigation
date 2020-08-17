@@ -2,8 +2,8 @@
 Changelog for package ari_maps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.21 (2020-08-17)
+-------------------
 * Use default map with info for orbslam
 * Contributors: Victor Lopez
 
