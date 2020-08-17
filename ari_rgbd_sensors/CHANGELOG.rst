@@ -2,6 +2,9 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.20 (2020-08-07)
 -------------------
 * Merge branch 'exposure' into 'ferrum-devel'
