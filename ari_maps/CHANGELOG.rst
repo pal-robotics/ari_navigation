@@ -2,8 +2,8 @@
 Changelog for package ari_maps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.22 (2020-09-01)
+-------------------
 * Merge branch 'fix-default-map' into 'ferrum-devel'
   fixed pal_office map
   See merge request robots/ari_navigation!20
