@@ -2,6 +2,14 @@
 Changelog for package ari_maps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'fix-default-map' into 'ferrum-devel'
+  fixed pal_office map
+  See merge request robots/ari_navigation!20
+* fixed pal_office map
+* Contributors: Federico Nardi, federiconardi
+
 0.0.21 (2020-08-17)
 -------------------
 * Use default map with info for orbslam
