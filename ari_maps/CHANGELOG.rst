@@ -2,6 +2,12 @@
 Changelog for package ari_maps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* added smaller map
+  Former-commit-id: f39834261d12fc547b45b37075e6192f2cba69ad
+* Contributors: Federico Nardi
+
 0.0.22 (2020-09-01)
 -------------------
 * Merge branch 'fix-default-map' into 'ferrum-devel'
