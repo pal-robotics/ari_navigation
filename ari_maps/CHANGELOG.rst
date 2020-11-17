@@ -2,8 +2,8 @@
 Changelog for package ari_maps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.23 (2020-11-17)
+-------------------
 * added smaller map
   Former-commit-id: f39834261d12fc547b45b37075e6192f2cba69ad
 * Contributors: Federico Nardi
