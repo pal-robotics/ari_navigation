@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>  
+  <node name="elp_rear_relay" type="relay" pkg="topic_tools" args="/rear_fisheye_camera/image_raw/compressed /elp_rear/fisheye/image_raw/compressed" />
+  <node name="elp_front_relay" type="relay" pkg="topic_tools" args="/front_fisheye_camera/image_raw/compressed /elp_front/fisheye/image_raw/compressed" />
+</launch>
