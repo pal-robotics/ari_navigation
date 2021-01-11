@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>  
-  <node name="elp_rear_relay" type="relay" pkg="topic_tools" args="/rear_fisheye_camera/image_raw/compressed /elp_rear/fisheye/image_raw/compressed" />
-  <node name="elp_front_relay" type="relay" pkg="topic_tools" args="/front_fisheye_camera/image_raw/compressed /elp_front/fisheye/image_raw/compressed" />
+	<node name="fisheye_rear_relay" type="relay" pkg="topic_tools" args="/rear_fisheye_camera/image_raw/compressed /rear_camera/fisheye/image_raw/compressed" />
+	<node name="fisheye_front_relay" type="relay" pkg="topic_tools" args="/front_fisheye_camera/image_raw/compressed /front_camera/fisheye/image_raw/compressed" />
+	<node name="fisheye_rear_relay_info" type="relay" pkg="topic_tools" args="/rear_fisheye_camera/camera_info /rear_camera/fisheye/camera_info" />
+  <node name="fisheye_front_relay_info" type="relay" pkg="topic_tools" args="/front_fisheye_camera/camera_info /front_camera/fisheye/camera_info" />
+
 </launch>
