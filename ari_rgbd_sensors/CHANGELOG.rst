@@ -2,6 +2,20 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'throttle-fisheye' into 'ferrum-devel'
+  Add throttle when remapping fisheye topics
+  See merge request robots/ari_navigation!22
+* Add throttle when remapping fisheye topics
+* Merge branch 'elp-relay' into 'ferrum-devel'
+  Elp relay
+  See merge request robots/ari_navigation!21
+* Add service remapping
+* Add camera info relay
+* Add jetson fisheye cameras relay
+* Contributors: Sara Cooper, federiconardi, procopiostein, victor
+
 0.0.23 (2020-11-17)
 -------------------
 
