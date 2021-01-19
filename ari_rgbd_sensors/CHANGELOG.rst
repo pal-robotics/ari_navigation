@@ -2,8 +2,8 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.24 (2021-01-19)
+-------------------
 * Merge branch 'throttle-fisheye' into 'ferrum-devel'
   Add throttle when remapping fisheye topics
   See merge request robots/ari_navigation!22
