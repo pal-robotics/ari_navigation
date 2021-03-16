@@ -2,6 +2,20 @@
 Changelog for package ari_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.26 (2021-03-16)
+-------------------
+* Merge branch 'ferrum-devel' of gitlab:robots/ari_navigation into ferrum-devel
+* Contributors: Software Engineer
+
+* Merge branch 'ferrum-devel' of gitlab:robots/ari_navigation into ferrum-devel
+* Contributors: Software Engineer
+
+* Merge branch 'ferrum-devel' of gitlab:robots/ari_navigation into ferrum-devel
+* Contributors: Software Engineer
+
+* Merge branch 'ferrum-devel' of gitlab:robots/ari_navigation into ferrum-devel
+* Contributors: Software Engineer
+
 0.0.25 (2021-03-16)
 -------------------
 * Merge branch 'ari3-laser' into 'ferrum-devel'
