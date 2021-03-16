@@ -2,8 +2,8 @@
 Changelog for package ari_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.25 (2021-03-16)
+-------------------
 * Merge branch 'ari3-laser' into 'ferrum-devel'
   Change to support sick-571 laser in ari3
   See merge request robots/ari_navigation!23
