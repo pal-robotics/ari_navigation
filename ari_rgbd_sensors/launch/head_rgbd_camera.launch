@@ -3,7 +3,7 @@
 
   <arg name="serial_no" />
   <arg name="device_type"       default="d4.5"/>    <!-- Note: using regular expression. match D435, D435i, D415... -->
-  <arg name="camera_name"       value="head_rgbd_camera"/>
+  <arg name="camera_name"       value="head_front_camera"/>
   <arg name="tf_prefix_camera"  default="$(arg camera_name)"/>
   <arg name="enable_pointcloud" default="true"/>
   <arg name="initial_reset"     default="false"/>
