@@ -2,6 +2,9 @@
 Changelog for package ari_navigation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.26 (2021-03-16)
 -------------------
 * Merge branch 'laser2' into 'ferrum-devel'

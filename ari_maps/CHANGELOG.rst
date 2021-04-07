@@ -2,6 +2,9 @@
 Changelog for package ari_maps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.26 (2021-03-16)
 -------------------
 * Merge branch 'ferrum-devel' of gitlab:robots/ari_navigation into ferrum-devel

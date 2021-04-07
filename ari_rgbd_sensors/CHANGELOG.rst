@@ -2,6 +2,16 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'head-realsense' into 'ferrum-devel'
+  Add head realsense launcher
+  See merge request robots/ari_navigation!24
+* adjust head front camera topic
+* Simplify head rgbd launcher
+* Add head realsense launcher
+* Contributors: Sara Cooper, davidfernandez, procopiostein
+
 0.0.26 (2021-03-16)
 -------------------
 * Merge branch 'ferrum-devel' of gitlab:robots/ari_navigation into ferrum-devel
