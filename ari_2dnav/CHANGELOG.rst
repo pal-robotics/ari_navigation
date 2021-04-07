@@ -2,8 +2,8 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.27 (2021-04-07)
+-------------------
 * Merge branch 'head-realsense' into 'ferrum-devel'
   Add head realsense launcher
   See merge request robots/ari_navigation!24
