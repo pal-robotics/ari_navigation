@@ -2,6 +2,39 @@
 Changelog for package ari_navigation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.27 (2021-04-07)
+-------------------
+
+0.0.26 (2021-03-16)
+-------------------
+* Merge branch 'laser2' into 'ferrum-devel'
+  Laser2
+  See merge request robots/ari_navigation!25
+* Add package laser
+* Add package laser
+* Contributors: Software Engineer, sergiomoyano
+
+* Merge branch 'laser2' into 'ferrum-devel'
+  Laser2
+  See merge request robots/ari_navigation!25
+* Add package laser
+* Add package laser
+* Contributors: Software Engineer, sergiomoyano
+
+* Merge branch 'laser2' into 'ferrum-devel'
+  Laser2
+  See merge request robots/ari_navigation!25
+* Add package laser
+* Add package laser
+* Contributors: Software Engineer, sergiomoyano
+
+* Merge branch 'laser2' into 'ferrum-devel'
+  Laser2
+  See merge request robots/ari_navigation!25
+* Add package laser
+* Add package laser
+* Contributors: Software Engineer, sergiomoyano
+
 0.0.24 (2021-01-19)
 -------------------
 

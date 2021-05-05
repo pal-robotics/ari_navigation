@@ -2,6 +2,28 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.27 (2021-04-07)
+-------------------
+* Merge branch 'head-realsense' into 'ferrum-devel'
+  Add head realsense launcher
+  See merge request robots/ari_navigation!24
+* adjust head front camera topic
+* Contributors: Sara Cooper, davidfernandez
+
+0.0.26 (2021-03-16)
+-------------------
+* Merge branch 'ferrum-devel' of gitlab:robots/ari_navigation into ferrum-devel
+* Contributors: Software Engineer
+
+* Merge branch 'ferrum-devel' of gitlab:robots/ari_navigation into ferrum-devel
+* Contributors: Software Engineer
+
+* Merge branch 'ferrum-devel' of gitlab:robots/ari_navigation into ferrum-devel
+* Contributors: Software Engineer
+
+* Merge branch 'ferrum-devel' of gitlab:robots/ari_navigation into ferrum-devel
+* Contributors: Software Engineer
+
 0.0.24 (2021-01-19)
 -------------------
 
