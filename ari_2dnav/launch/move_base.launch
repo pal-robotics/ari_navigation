@@ -5,13 +5,15 @@
   <arg name="global_planner" default="global_planner"/>
   <arg name="local_planner"  default="teb"/>
   <arg name="public_sim"     default="false"/>
-  
+  <arg name="laser_model" default="No"/>
+
   <!-- Navigation -->
   <include file="$(find pal_navigation_cfg_ari)/launch/move_base.launch">
     <arg name="config_base_path" value="$(arg config_base_path)"/>
     <arg name="global_planner" value="$(arg global_planner)"/>
     <arg name="local_planner"  value="$(arg local_planner)"/>
     <arg name="public_sim"     value="$(arg public_sim)"/>
+    <arg name="laser_model" value="$(arg laser_model)"/>
   </include>
 
 </launch>
