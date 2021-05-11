@@ -6,9 +6,8 @@
 
   <arg name="localization" default="amcl"/>
 
-  <include file="$(find pal_navigation_cfg_ari)/launch/localization_$(arg localization).launch"/>
+  <include file="$(find pal_navigation_cfg_ari)/launch/localization_$(arg localization).launch">
+    <arg name="scan_topic"  value="$(arg scan_topic)"/>
+  </include>
 
 </launch>
-
-
-
