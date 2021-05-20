@@ -2,6 +2,11 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'ferrum-devel' of gitlab:robots/ari_navigation into laser2
+* Contributors: sergiomoyano
+
 0.0.27 (2021-04-07)
 -------------------
 * Merge branch 'head-realsense' into 'ferrum-devel'

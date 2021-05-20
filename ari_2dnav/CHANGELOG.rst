@@ -2,6 +2,16 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'laser2' into 'ferrum-devel'
+  Added laser_model dependencies
+  See merge request robots/ari_navigation!27
+* mapping with laser scans
+* Merge branch 'ferrum-devel' of gitlab:robots/ari_navigation into laser2
+* Added laser_model dependencies
+* Contributors: antoniobrandi, davidfernandez, sergiomoyano
+
 0.0.27 (2021-04-07)
 -------------------
 * Merge branch 'head-realsense' into 'ferrum-devel'
