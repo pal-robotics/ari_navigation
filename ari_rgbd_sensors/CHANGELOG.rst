@@ -2,8 +2,8 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.29 (2021-05-31)
+-------------------
 * Merge branch 'initial-reset-front-camera' into 'ferrum-devel'
   Initial reset front camera on start
   See merge request robots/ari_navigation!28
