@@ -2,6 +2,17 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'initial-reset-front-camera' into 'ferrum-devel'
+  Initial reset front camera on start
+  See merge request robots/ari_navigation!28
+* Initial reset front camera on start
+  This is needed in the event the USB driver is reloaded.
+  See https://github.com/IntelRealSense/librealsense/issues/9099 for more
+  details
+* Contributors: Victor Lopez, federiconardi
+
 0.0.28 (2021-05-20)
 -------------------
 * Merge branch 'ferrum-devel' of gitlab:robots/ari_navigation into laser2

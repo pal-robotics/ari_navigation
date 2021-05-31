@@ -2,6 +2,9 @@
 Changelog for package ari_maps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.28 (2021-05-20)
 -------------------
 * Merge branch 'ferrum-devel' of gitlab:robots/ari_navigation into laser2
