@@ -7,7 +7,7 @@
   <arg name="tf_prefix_camera"  default="$(arg camera_name)"/>
   <arg name="initial_reset"     default="true"/>
   <arg name="align_depth"       default="true"/>
-  <arg name="filters"           default="pointcloud"/>
+  <arg name="filters"           default="disparity,spatial,temporal,decimation,pointcloud"/>
   <arg name="pointcloud_frame_skip" default="5" />
 
   <arg name="ari_sensors_rgbd_calibration_dir"  value="$(optenv ari_rgbd_sensors_calibration_path)"/>
