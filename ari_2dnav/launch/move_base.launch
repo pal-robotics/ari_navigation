@@ -5,7 +5,7 @@
   <arg name="global_planner" default="global_planner"/>
   <arg name="local_planner"  default="teb"/>
   <arg name="public_sim"     default="false"/>
-  <arg name="laser_model" default="No"/>
+  <arg name="laser_model" default="false"/>
 
   <!-- Navigation -->
   <include file="$(find pal_navigation_cfg_ari)/launch/move_base.launch">
