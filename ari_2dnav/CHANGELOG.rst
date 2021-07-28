@@ -2,6 +2,15 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'fixing_laser_model' into 'ferrum-devel'
+  fixing laser_model set default false
+  See merge request robots/ari_navigation!31
+* Passing down laser_model to localization launch files
+* fixing laser_model set default false
+* Contributors: antoniobrandi, saikishor
+
 0.0.29 (2021-05-31)
 -------------------
 

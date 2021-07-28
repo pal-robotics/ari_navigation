@@ -2,6 +2,11 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* added filters to realsense head and torso cameras to clean the pointcloud
+* Contributors: antoniobrandi
+
 0.0.29 (2021-05-31)
 -------------------
 * Merge branch 'initial-reset-front-camera' into 'ferrum-devel'
