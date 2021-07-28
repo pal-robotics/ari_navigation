@@ -3,11 +3,13 @@
 
   <arg name="scan_topic" default="rgbd_scan"/>
   <arg name="map_topic" default="vo_map"/>
+  <arg name="laser_model" default="false"/>
 
   <arg name="localization" default="amcl"/>
 
   <include file="$(find pal_navigation_cfg_ari)/launch/localization_$(arg localization).launch">
     <arg name="scan_topic"  value="$(arg scan_topic)"/>
+    <arg name="laser_model" value="$(arg laser_model)"/>
   </include>
 
 </launch>
