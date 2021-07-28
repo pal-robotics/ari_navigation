@@ -2,8 +2,8 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.30 (2021-07-28)
+-------------------
 * added filters to realsense head and torso cameras to clean the pointcloud
 * Contributors: antoniobrandi
 
