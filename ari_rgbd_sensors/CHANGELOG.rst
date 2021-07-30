@@ -2,8 +2,8 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.31 (2021-07-30)
+-------------------
 * Merge branch 'startup_laser_fixes' into 'ferrum-devel'
   Use robot_info instead of replaces
   See merge request robots/ari_navigation!32
