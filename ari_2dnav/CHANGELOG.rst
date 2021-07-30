@@ -2,6 +2,9 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.30 (2021-07-28)
 -------------------
 * Merge branch 'fixing_laser_model' into 'ferrum-devel'

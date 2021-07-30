@@ -2,6 +2,15 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'startup_laser_fixes' into 'ferrum-devel'
+  Use robot_info instead of replaces
+  See merge request robots/ari_navigation!32
+* Take care of false as a boolean
+* Use robot_info instead of replaces
+* Contributors: davidfernandez, saikishor
+
 0.0.30 (2021-07-28)
 -------------------
 * added filters to realsense head and torso cameras to clean the pointcloud
