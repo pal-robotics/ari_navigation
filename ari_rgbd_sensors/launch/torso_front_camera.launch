@@ -12,7 +12,9 @@
 
   <arg name="ari_sensors_rgbd_calibration_dir"  value="$(optenv ari_rgbd_sensors_calibration_path)"/>
   <arg name="calibration_file_path" value="$(eval ari_sensors_rgbd_calibration_dir if (ari_sensors_rgbd_calibration_dir != '') else find('ari_rgbd_sensors'))"/>
-  <arg name="json_file_path"      default="$(arg calibration_file_path)/config/torso_config.json"/> 
+
+  <arg name="laser_model" default="false"/>
+  <arg name="json_file_path" default="$(eval ('' if laser_model else calibration_file_path + '/config/torso_config.json'))"/>
   
   <arg name="depth_fps"           default="30"/>
   <arg name="infra_fps"           default="30"/>
