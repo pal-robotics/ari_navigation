@@ -2,6 +2,14 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'fix-enable-infra' into 'ferrum-devel'
+  fix-enable-infra
+  See merge request robots/ari_navigation!33
+* Update torso_front_camera.launch
+* Contributors: federiconardi, sergiomoyano
+
 0.0.31 (2021-07-30)
 -------------------
 * Merge branch 'startup_laser_fixes' into 'ferrum-devel'
