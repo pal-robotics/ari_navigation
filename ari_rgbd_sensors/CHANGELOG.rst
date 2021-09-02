@@ -2,8 +2,8 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.32 (2021-09-02)
+-------------------
 * Merge branch 'fix-enable-infra' into 'ferrum-devel'
   fix-enable-infra
   See merge request robots/ari_navigation!33
