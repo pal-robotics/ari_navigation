@@ -13,7 +13,7 @@
     <arg name="global_planner" value="$(arg global_planner)"/>
     <arg name="local_planner"  value="$(arg local_planner)"/>
     <arg name="public_sim"     value="$(arg public_sim)"/>
-    <arg name="laser_model" value="$(arg laser_model)"/>
+    <!-- <arg name="laser_model" value="$(arg laser_model)"/> -->
   </include>
 
 </launch>
