@@ -2,6 +2,15 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'fix-head-camera-launch' into 'ferrum-devel'
+  fix-head-camera-launch
+  See merge request robots/ari_navigation!34
+* fix typo
+* fix-head-camera-launch
+* Contributors: federiconardi, sergiomoyano
+
 0.0.32 (2021-09-02)
 -------------------
 * Merge branch 'fix-enable-infra' into 'ferrum-devel'
