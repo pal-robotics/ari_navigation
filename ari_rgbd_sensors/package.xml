@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package format="2">
+<package format="3">
   <name>ari_rgbd_sensors</name>
   <version>0.0.33</version>
   <description>IVO-specific RGBD sensors launch and config files.</description>
