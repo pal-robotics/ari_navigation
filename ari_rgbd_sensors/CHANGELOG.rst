@@ -2,8 +2,8 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.34 (2022-07-31)
+-------------------
 * noetic compat
 * Contributors: Séverin Lemaignan
 
