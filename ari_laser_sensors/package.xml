@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>ari_laser_sensors</name>
-  <version>0.0.34</version>
+  <version>0.0.35</version>
   <description>ARI-specific laser sensors launch and config files.</description>
   <maintainer email="sergio.moyano@pal-robotics.com">Sergio Moyano</maintainer>
   <license>Apache License 2.0</license>
