@@ -2,6 +2,18 @@
 Changelog for package ari_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'feat/ydlidar' into 'ferrum-devel'
+  added support to ydlidar
+  See merge request robots/ari_navigation!37
+* updated laser fov
+* added ydlidar_ros_driver dependency
+* added support to ydlidar tg15
+* updated fov
+* added support to ydlidar
+* Contributors: antoniobrandi
+
 0.0.34 (2022-07-31)
 -------------------
 
