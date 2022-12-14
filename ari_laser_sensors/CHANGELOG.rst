@@ -2,6 +2,9 @@
 Changelog for package ari_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.36 (2022-11-17)
 -------------------
 * Merge branch 'feat/ydlidar' into 'ferrum-devel'

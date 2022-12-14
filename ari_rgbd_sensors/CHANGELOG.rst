@@ -2,6 +2,14 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'fix-head-camera-fps' into 'ferrum-devel'
+  Update the fps of the camera to fit in the constrains
+  See merge request robots/ari_navigation!39
+* Update the fps of the camera to fit in the constrains
+* Contributors: davidfernandez, sergiomoyano
+
 0.0.36 (2022-11-17)
 -------------------
 
