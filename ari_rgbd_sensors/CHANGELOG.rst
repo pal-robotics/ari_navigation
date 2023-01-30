@@ -2,6 +2,9 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.37 (2022-12-14)
 -------------------
 * Merge branch 'fix-head-camera-fps' into 'ferrum-devel'
