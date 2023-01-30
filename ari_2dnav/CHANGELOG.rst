@@ -2,8 +2,8 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.38 (2023-01-30)
+-------------------
 * Merge branch 'feat/map-manager' into 'ferrum-devel'
   move to map manager
   See merge request robots/ari_navigation!38
