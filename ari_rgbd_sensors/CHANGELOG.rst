@@ -2,6 +2,14 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'torso-json' into 'ferrum-devel'
+  Change the torso configuration for always use ari_rgbd_sensors json
+  See merge request robots/ari_navigation!40
+* Change the torso configuration for always use ari_rgbd_sensors json
+* Contributors: sergiomoyano
+
 0.0.38 (2023-01-30)
 -------------------
 
