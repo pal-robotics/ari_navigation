@@ -2,6 +2,14 @@
 Changelog for package ari_maps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'add_pal_office_7th_floor_map' into 'ferrum-devel'
+  Add new pal office map
+  See merge request robots/ari_navigation!42
+* Add new pal office map
+* Contributors: antoniobrandi, thomaspeyrucain
+
 0.0.39 (2023-02-08)
 -------------------
 
