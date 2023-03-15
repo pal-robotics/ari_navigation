@@ -2,6 +2,9 @@
 Changelog for package ari_maps
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.40 (2023-03-06)
 -------------------
 * Merge branch 'add_pal_office_7th_floor_map' into 'ferrum-devel'

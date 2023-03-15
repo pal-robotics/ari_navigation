@@ -2,6 +2,14 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'fix/public-simulation-launch-files-bugs' into 'ferrum-devel'
+  fixed localization launch file
+  See merge request robots/ari_navigation!43
+* fixed localization launch file
+* Contributors: josegarcia
+
 0.0.40 (2023-03-06)
 -------------------
 
