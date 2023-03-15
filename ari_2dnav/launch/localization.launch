@@ -2,7 +2,12 @@
 <launch>
 
   <arg name="localization" default="amcl"/>
+  <arg name="scan_topic" default="scan"/>
+  <arg name="map_topic" default="vo_loc_map"/>
 
-  <include file="$(find pal_navigation_cfg_ari)/launch/localization_$(arg localization).launch"/>
+  <include file="$(find pal_navigation_cfg_ari)/launch/localization_$(arg localization).launch">
+    <arg name="scan_topic" value="$(arg scan_topic)"/>
+    <arg name="map_topic" value="$(arg map_topic)"/>
+  </include>
 
 </launch>
