@@ -2,8 +2,8 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.42 (2023-03-22)
+-------------------
 * Merge branch 'emiter' into 'ferrum-devel'
   Added param emitter_always_on
   See merge request robots/ari_navigation!45
