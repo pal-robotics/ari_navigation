@@ -2,6 +2,15 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'emiter' into 'ferrum-devel'
+  Added param emitter_always_on
+  See merge request robots/ari_navigation!45
+* Added auto exposure and decimation
+* Added param emitter_always_on
+* Contributors: antoniobrandi, sergiomoyano
+
 0.0.41 (2023-03-15)
 -------------------
 

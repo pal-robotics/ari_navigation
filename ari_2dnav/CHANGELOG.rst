@@ -2,6 +2,9 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.0.41 (2023-03-15)
 -------------------
 * Merge branch 'fix/public-simulation-launch-files-bugs' into 'ferrum-devel'
