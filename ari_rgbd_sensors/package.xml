@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>ari_rgbd_sensors</name>
-  <version>0.0.42</version>
+  <version>0.0.43</version>
   <description>ARI-specific RGBD sensors launch and config files.</description>
   <maintainer email="procopio.stein@pal-robotics.com">Procópio Stein</maintainer>
   <maintainer email="sai.kishor@pal-robotics.com">Sai Kishor Kothakota</maintainer>
