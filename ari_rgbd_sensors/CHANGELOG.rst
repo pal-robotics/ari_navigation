@@ -2,6 +2,14 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'bugfix/decimation-filter' into 'ferrum-devel'
+  fix: disable align_depth for head and torso rgbd
+  See merge request robots/ari_navigation!46
+* fix: disable align_depth for head and torso rgbd
+* Contributors: josecarlos, sergiomoyano
+
 0.0.42 (2023-03-22)
 -------------------
 * Merge branch 'emiter' into 'ferrum-devel'
