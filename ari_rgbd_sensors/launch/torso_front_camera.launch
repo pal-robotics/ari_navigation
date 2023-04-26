@@ -6,7 +6,7 @@
   <arg name="camera_name"       value="torso_front_camera"/>
   <arg name="tf_prefix_camera"  default="$(arg camera_name)"/>
   <arg name="initial_reset"     default="true"/>
-  <arg name="align_depth"       default="true"/>
+  <arg name="align_depth"       default="false"/>
   <arg name="filters"           default="disparity,spatial,temporal,decimation,pointcloud"/>
   <arg name="pointcloud_frame_skip" default="5" />
 
