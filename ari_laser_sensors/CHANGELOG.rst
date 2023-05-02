@@ -2,8 +2,8 @@
 Changelog for package ari_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.44 (2023-05-02)
+-------------------
 * Merge branch 'bugfix/laser-filters-depends' into 'ferrum-devel'
   fix: add laser filters exec depends
   See merge request robots/ari_navigation!47
