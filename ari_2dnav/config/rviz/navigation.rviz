@@ -258,7 +258,7 @@ Visualization Manager:
               Name: HeadCamera
               Normalize Range: true
               Queue Size: 2
-              Transport Hint: raw
+              Transport Hint: compressed
               Unreliable: false
               Value: true
           Enabled: true
@@ -550,7 +550,7 @@ Visualization Manager:
           Value: true
         - Class: rviz/Image
           Enabled: true
-          Image Topic: /slam_orb/debug_image
+          Image Topic: /map/image
           Max Value: 1
           Median window: 5
           Min Value: 0
