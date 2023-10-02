@@ -2,8 +2,8 @@
 Changelog for package ari_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.45 (2023-10-02)
+-------------------
 * Merge branch 'fix/update-tg30-fov' into 'ferrum-devel'
   update fov ydlidar tg-30
   See merge request robots/ari_navigation!49
