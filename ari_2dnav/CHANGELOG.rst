@@ -2,6 +2,14 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'feat/move-base-flex' into 'ferrum-devel'
+  using move base flex
+  See merge request robots/ari_navigation!41
+* using move base flex
+* Contributors: antoniobrandi
+
 0.0.45 (2023-10-02)
 -------------------
 * Merge branch 'rviz' into 'ferrum-devel'
