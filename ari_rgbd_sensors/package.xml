@@ -2,20 +2,30 @@
 <package format="3">
   <name>ari_rgbd_sensors</name>
   <version>0.1.0</version>
-  <description>ARI-specific RGBD sensors launch and config files.</description>
-  <maintainer email="procopio.stein@pal-robotics.com">Procópio Stein</maintainer>
-  <maintainer email="sai.kishor@pal-robotics.com">Sai Kishor Kothakota</maintainer>
+  <description>ARI-specific RGBD sensors module and params files.</description>
+  <author email="andrea.capodacqua@pal-robotics.com">Andrea Capodacqua</author>
+  <maintainer email="andrea.capodacqua@pal-robotics.com">Andrea Capodacqua</maintainer>
   <license>Apache License 2.0</license>
-  <author email="victor.lopez@pal-robotics.com">Victor Lopez</author>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <build_depend condition="$PAL_DISTRO >= alum">pal_module_cmake</build_depend>
+  <build_depend condition="$PAL_DISTRO >= alum">pal_configuration_cmake</build_depend>
   
-  <exec_depend>pal_usb_utils</exec_depend>
-  <exec_depend>realsense2_camera</exec_depend>
-  <exec_depend>image_transport</exec_depend>
-  <exec_depend>topic_tools</exec_depend>
-  <exec_depend>pointcloud_to_laserscan</exec_depend>
-  <exec_depend condition="$ROS_DISTRO != noetic">uvc_camera</exec_depend>
-  <exec_depend condition="$ROS_DISTRO == noetic">libuvc_camera</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">realsense2_camera</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">realsense_camera_cfg</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">realsense2_camera_deprecated</exec_depend>
+  <exec_depend condition="$PAL_DITRO >= alum">realsense_deprecated_camera_cfg</exec_depend>
+  
+  <exec_depend>launch_pal</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>rclcpp_components</exec_depend>
+  <exec_depend>ros2launch</exec_depend>  
 
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 </package>

@@ -1,0 +1,6 @@
+/local_costmap:
+  use_preset: "local_costmap_mppi.yaml"
+  use_if:
+    robot_type: ari
+  ros__parameters:
+    footprint: "[[0.3775, 0.2795], [-0.3775, 0.2795], [-0.3775, -0.2795], [0.3775, -0.2795]]"

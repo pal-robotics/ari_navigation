@@ -1,0 +1,12 @@
+/laser:
+  use_preset: "ydlidar_tg15.yaml"
+  use_if:
+    robot_type: ari
+    laser_model: ydlidar-tg15
+  ros__parameters:
+    port: /dev/ttyUSB0
+    frame_id: "torso_laser_link"
+    angle_min: -145.0
+    angle_max: 100.0
+  remappings:
+    scan: "/scan_raw"

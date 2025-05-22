@@ -1,24 +1,19 @@
 <?xml version="1.0"?>
-<package format="2">
+<package format="3">
   <name>ari_navigation</name>
   <version>0.1.0</version>
-  <description>The ARI Navigatgion metapackage</description>
-
-  <maintainer email="procopio.stein@pal-robotics.com">Procópio Stein</maintainer>
-  <maintainer email="sai.kishor@pal-robotics.com">Sai Kishor Kothakota</maintainer>
-  <maintainer email="victor.lopez@pal-robotics.com">Victor Lopez</maintainer>
+  <description>The ARI Navigation metapackage</description>
+  <author email="andrea.capodacqua@pal-robotics.com">Andrea Capodacqua</author>
+  <maintainer email="andrea.capodacqua@pal-robotics.com">Andrea Capodacqua</maintainer>
   <license>Apache License 2.0</license>
-  <author email="victor.lopez@pal-robotics.com">Victor Lopez</author>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
 
   <exec_depend>ari_2dnav</exec_depend>
-  <exec_depend>ari_maps</exec_depend>
-  <exec_depend>ari_rgbd_sensors</exec_depend>
   <exec_depend>ari_laser_sensors</exec_depend>
-
+  <exec_depend>ari_rgbd_sensors</exec_depend>
 
   <export>
-    <metapackage/>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>

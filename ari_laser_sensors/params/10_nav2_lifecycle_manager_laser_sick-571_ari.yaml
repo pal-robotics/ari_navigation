@@ -1,0 +1,12 @@
+/lifecycle_manager_laser:
+  use_preset: "lifecycle_manager.yaml"
+  use_if:
+    robot_type: ari
+    laser_model: sick-571
+  ros__parameters:
+    node_names:
+      [
+        "laser",
+        "pal_laser_filters",
+        "direct_laser_odometry",
+      ]

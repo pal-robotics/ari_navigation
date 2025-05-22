@@ -1,11 +1,43 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.8)
 project(ari_2dnav)
 
-find_package(catkin REQUIRED)
+find_package(ament_cmake_auto REQUIRED)
 
-catkin_package()
+ament_auto_find_build_dependencies()
 
-foreach(dir launch config)
-    install(DIRECTORY ${dir}/
-        DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}/${dir})
-endforeach(dir)
+if(pal_module_cmake_FOUND)
+  pal_register_modules(module/00_localization.yaml
+                      module/00_navigation.yaml
+                      module/00_slam.yaml)
+elseif(DEFINED ENV{PAL_DISTRO})
+  message(FATAL_ERROR "The pal_module_cmake package was not found. Modules not registered.")
+endif()
+if(pal_configuration_cmake_FOUND)
+  pal_register_configs(
+    CONFIGS
+      params/10_nav2_controller_ari.yaml
+    RESOURCE_NAME
+      nav2_controller
+  )
+  pal_register_configs(
+    CONFIGS
+      params/10_nav2_lifecycle_manager_2dnav_ari.yaml
+    RESOURCE_NAME
+      nav2_lifecycle_manager
+  )
+  pal_register_configs(
+    CONFIGS
+      params/10_nav2_planner_ari.yaml
+    RESOURCE_NAME
+      nav2_planner
+  )
+elseif(DEFINED ENV{PAL_DISTRO})
+  message(FATAL_ERROR "The pal_configuration_cmake package was not found. Configurations not registered.")
+endif()
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+ament_auto_package(INSTALL_TO_SHARE config launch)

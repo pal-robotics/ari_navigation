@@ -1,22 +1,30 @@
 <?xml version="1.0"?>
-<package format="2">
+<package format="3">
   <name>ari_laser_sensors</name>
   <version>0.1.0</version>
   <description>ARI-specific laser sensors launch and config files.</description>
-  <maintainer email="sergio.moyano@pal-robotics.com">Sergio Moyano</maintainer>
+  <author email="andrea.capodacqua@pal-robotics.com">Andrea Capodacqua</author>
+  <maintainer email="andrea.capodacqua@pal-robotics.com">Andrea Capodacqua</maintainer>
   <license>Apache License 2.0</license>
-  <author email="sergio.moyano@pal-robotics.com">Sergio Moyano</author>
 
-  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
 
-  <exec_depend>sick_tim</exec_depend>
-  <exec_depend>ydlidar_ros_driver</exec_depend>
-  <exec_depend>laser_filters</exec_depend>
-  <exec_depend>pal_filters</exec_depend>
+  <build_depend condition="$PAL_DISTRO >= alum">pal_module_cmake</build_depend>
+  <build_depend condition="$PAL_DISTRO >= alum">pal_configuration_cmake</build_depend>
 
-  <!-- The export tag contains other, unspecified, tags -->
+  <exec_depend condition="$PAL_DISTRO >= alum">dlo_ros</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">nav2_lifecycle_manager</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">pal_laser_filters</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">rclcpp_components</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">sick_laser_cfg</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">sick_tim</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">ydlidar_ros2_driver</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">ydlidar_laser_cfg</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
   <export>
-    <!-- Other tools can request additional information be placed here -->
-
+    <build_type>ament_cmake</build_type>
   </export>
 </package>
