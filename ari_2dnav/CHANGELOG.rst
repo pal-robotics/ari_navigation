@@ -2,6 +2,14 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'feat/aca/ros2-porting' into 'humble-devel'
+  Feat/aca/ros2 porting
+  See merge request robots/ari_navigation!50
+* ROS 2 migration
+* Contributors: andreacapodacqua
+
 0.1.0 (2023-12-18)
 ------------------
 * Merge branch 'feat/move-base-flex' into 'ferrum-devel'
