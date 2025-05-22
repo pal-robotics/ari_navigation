@@ -1,0 +1,6 @@
+/global_costmap:
+  use_preset: "global_costmap_mppi.yaml"
+  use_if:
+    robot_type: ari
+  ros__parameters:
+    robot_radius: 0.38

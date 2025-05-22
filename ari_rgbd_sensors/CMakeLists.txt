@@ -1,11 +1,30 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.8)
 project(ari_rgbd_sensors)
 
-find_package(catkin REQUIRED)
+find_package(ament_cmake_auto REQUIRED)
+ament_auto_find_build_dependencies()
 
-catkin_package()
+if(pal_module_cmake_FOUND)
+  pal_register_modules(module/10_rgbd.yaml)
+elseif(DEFINED ENV{PAL_DISTRO})
+  message(FATAL_ERROR "The pal_module_cmake package was not found. Modules not registered.")
+endif()
 
-install(DIRECTORY launch config
-    DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION}
-)
+if(pal_configuration_cmake_FOUND)
+  pal_register_configs(
+    CONFIGS
+      params/00_rgbd_realsense-d435_ari.yaml
+      params/00_rgbd_realsense-d435i_ari.yaml
+    RESOURCE_NAME
+      realsense_camera_cfg
+  )
+elseif(DEFINED ENV{PAL_DISTRO})
+  message(FATAL_ERROR "The pal_configuration_cmake package was not found. Configurations not registered.")
+endif()
 
+if(BUILD_TESTING)
+  ament_auto_find_test_dependencies()
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+ament_auto_package(INSTALL_TO_SHARE launch)

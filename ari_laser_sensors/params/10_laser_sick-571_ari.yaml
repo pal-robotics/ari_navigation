@@ -1,0 +1,10 @@
+/laser:
+  use_preset: "sick_driver.yaml"
+  use_if:
+    robot_type: ari
+    laser_model: sick-571
+  ros__parameters:
+    scan_topic: "/scan_raw"
+    frame_id: "torso_laser_link"
+    min_ang: -2.53073
+    max_ang: 1.74533

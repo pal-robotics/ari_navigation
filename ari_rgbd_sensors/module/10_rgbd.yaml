@@ -1,0 +1,2 @@
+rgbd:
+  launch: "ari_rgbd_sensors rgbd_@camera_model@.launch.py"

@@ -1,0 +1,2 @@
+laser:
+  launch: "ari_laser_sensors laser_@laser_model@.launch.py"
