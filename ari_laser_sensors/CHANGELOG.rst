@@ -2,8 +2,8 @@
 Changelog for package ari_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.0 (2025-05-22)
+------------------
 * Merge branch 'feat/aca/ros2-porting' into 'humble-devel'
   Feat/aca/ros2 porting
   See merge request robots/ari_navigation!50
