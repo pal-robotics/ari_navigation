@@ -2,8 +2,8 @@
 Changelog for package ari_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.1 (2025-06-12)
+------------------
 * fix footprint
 * Contributors: andreacapodacqua
 
