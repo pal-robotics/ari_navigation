@@ -2,6 +2,9 @@
 Changelog for package ari_navigation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 2.0.0 (2025-05-22)
 ------------------
 * Merge branch 'feat/aca/ros2-porting' into 'humble-devel'
