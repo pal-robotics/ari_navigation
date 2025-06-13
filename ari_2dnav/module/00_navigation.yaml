@@ -1,2 +1,2 @@
-localization:
+navigation:
   launch: "ari_2dnav navigation.launch.py"
