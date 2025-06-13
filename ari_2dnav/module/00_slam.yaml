@@ -1,2 +1,2 @@
-localization:
+slam:
   launch: "ari_2dnav slam.launch.py"
