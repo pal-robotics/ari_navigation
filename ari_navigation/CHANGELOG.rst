@@ -2,6 +2,9 @@
 Changelog for package ari_navigation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 2.0.1 (2025-06-12)
 ------------------
 
