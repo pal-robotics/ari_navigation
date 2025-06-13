@@ -31,7 +31,7 @@ def generate_launch_description():
         pkg='ydlidar_laser_cfg',
         node=laser_node,
         ld=ld,
-        cmdline_args=False,
+        cmdline_args=True,
     )
     pal_laser_filters_config = get_pal_configuration(
         pkg='pal_laser_filters',
@@ -97,5 +97,6 @@ def generate_launch_description():
         output='screen',
     )
 
+    ld.add_action(laser_node)
     ld.add_action(laser_container)
     return ld

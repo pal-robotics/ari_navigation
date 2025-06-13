@@ -32,8 +32,8 @@ if(pal_configuration_cmake_FOUND)
   )
   pal_register_configs(
     CONFIGS
-      params/10_laser_ydlidar_tg-15_ari.yaml
-      params/10_laser_ydlidar_tg-30_ari.yaml
+      params/10_laser_ydlidar-tg15_ari.yaml
+      params/10_laser_ydlidar-tg30_ari.yaml
     RESOURCE_NAME
       ydlidar_laser_cfg
   )

@@ -96,6 +96,6 @@ def generate_launch_description():
         ],
         output='screen',
     )
-
+    ld.add_action(laser_node)
     ld.add_action(laser_container)
     return ld

@@ -1,8 +1,8 @@
 /laser:
-  use_preset: "ydlidar_tg15.yaml"
+  use_preset: "ydlidar-tg30.yaml"
   use_if:
     robot_type: ari
-    laser_model: ydlidar-tg15
+    laser_model: ydlidar-tg30
   ros__parameters:
     port: /dev/ttyUSB0
     frame_id: "torso_laser_link"
