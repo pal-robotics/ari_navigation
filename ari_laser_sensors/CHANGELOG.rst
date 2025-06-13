@@ -2,8 +2,8 @@
 Changelog for package ari_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.2 (2025-06-13)
+------------------
 * fix laser name typo
 * Contributors: andreacapodacqua
 
