@@ -9,4 +9,4 @@
     angle_min: -145.0
     angle_max: 100.0
   remappings:
-    scan: "/scan_raw"
+    scan: "scan_raw"
