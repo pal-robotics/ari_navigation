@@ -2,6 +2,11 @@
 Changelog for package ari_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fix topic name
+* Contributors: andreacapodacqua
+
 2.0.3 (2025-06-16)
 ------------------
 

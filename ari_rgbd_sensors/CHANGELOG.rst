@@ -2,6 +2,12 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* typo in camera_name
+* renamed camera_model to torso_camera_model
+* Contributors: andreacapodacqua
+
 2.0.3 (2025-06-16)
 ------------------
 
