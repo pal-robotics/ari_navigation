@@ -2,8 +2,8 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.3 (2025-06-16)
+------------------
 * typo
 * typo module name
 * Contributors: andreacapodacqua
