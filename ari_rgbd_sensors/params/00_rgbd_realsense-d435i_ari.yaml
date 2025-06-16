@@ -2,7 +2,7 @@
   use_preset: "d435i_rgbd_high_accuracy.yaml"
   use_if:
     robot_type: ari
-    camera_model: realsense-d435i
+    torso_camera_model: realsense-d435i
   ros__parameters:
     camera_name: "torso_front_rgbd_camera"
     serial_no: "${serial_number_camera_0}"
