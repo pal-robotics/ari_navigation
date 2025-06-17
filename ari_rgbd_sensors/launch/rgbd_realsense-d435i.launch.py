@@ -68,7 +68,7 @@ def generate_launch_description():
             ),
             # Torso Back Camera Driver
             ComposableNode(
-                package='realsense2_camera',
+                package='realsense2_camera_deprecated',
                 plugin='realsense2_camera::RealSenseNodeFactory',
                 name=torso_back_camera_node,
                 namespace='torso_back_stereo_camera',
