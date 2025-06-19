@@ -2,6 +2,13 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* added dep rgbd nav
+* fix issues torso cameras
+* changed to torso_front_camera_model
+* Contributors: andreacapodacqua
+
 2.0.4 (2025-06-16)
 ------------------
 * typo in camera_name
