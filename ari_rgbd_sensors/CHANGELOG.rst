@@ -2,6 +2,11 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fix plugin clash
+* Contributors: andreacapodacqua
+
 2.0.5 (2025-06-19)
 ------------------
 * added dep rgbd nav
