@@ -12,8 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import os
+
+from ament_index_python import get_package_share_directory
+
 from launch import LaunchDescription
-from launch_ros.actions import ComposableNodeContainer
+from launch_ros.actions import ComposableNodeContainer, Node
 from launch_ros.descriptions import ComposableNode
 from launch_pal import get_pal_configuration
 
@@ -95,4 +99,17 @@ def generate_launch_description():
     )
 
     ld.add_action(laser_container)
+
+    laser_analyzer = Node(
+        package='diagnostic_aggregator',
+        executable='add_analyzer',
+        namespace='ari_laser_sensors',
+        output='screen',
+        emulate_tty=True,
+        parameters=[
+            os.path.join(
+                get_package_share_directory('ari_laser_sensors'),
+                'config', 'laser_analyzers.yaml')],
+    )
+    ld.add_action(laser_analyzer)
     return ld
