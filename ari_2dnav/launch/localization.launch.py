@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import os
+
+from ament_index_python import get_package_share_directory
+
 from launch import LaunchDescription
 from launch_ros.actions import Node
 from launch_pal import get_pal_configuration
@@ -91,8 +95,22 @@ def generate_launch_description():
         remappings=lifecycle_manager_config['remappings'],
     )
 
+    nav2_analyzer = Node(
+        package='diagnostic_aggregator',
+        executable='add_analyzer',
+        namespace='ari_2dnav',
+        output='screen',
+        emulate_tty=True,
+        parameters=[
+            os.path.join(
+                get_package_share_directory('ari_2dnav'),
+                'config', 'nav2_analyzers.yaml')
+        ],
+    )
+
     ld.add_action(map_server)
     ld.add_action(map_saver)
     ld.add_action(amcl)
     ld.add_action(lifecycle_manager)
+    ld.add_action(nav2_analyzer)
     return ld

@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import os
+
+from ament_index_python import get_package_share_directory
+
 import rclpy
 from rclpy.node import Node as RclpyNode
 from launch import LaunchDescription
@@ -79,4 +83,17 @@ def generate_launch_description():
     )
 
     ld.add_action(camera_components)
+
+    rgbd_analyzer = Node(
+        package='diagnostic_aggregator',
+        executable='add_analyzer',
+        namespace='ari_rgbd_sensors',
+        output='screen',
+        emulate_tty=True,
+        parameters=[
+            os.path.join(
+                get_package_share_directory('ari_rgbd_sensors'),
+                'config', 'rgbd_analyzers.yaml')],
+    )
+    ld.add_action(rgbd_analyzer)
     return ld
