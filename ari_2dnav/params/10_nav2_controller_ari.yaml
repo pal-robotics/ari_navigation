@@ -4,3 +4,17 @@
     robot_type: ari
   ros__parameters:
     footprint: "[[0.1575, 0.2795], [-0.5975, 0.2795], [-0.5975, -0.2795], [0.1575, -0.2795]]"
+
+/controller_server:
+  ros__parameters:
+    controller_frequency: 25.0
+    yaw_goal_tolerance: 0.3
+    FollowPath:
+      time_steps: 20
+      model_dt: 0.04
+      vx_max: 0.5
+      wz_max: 1.9
+      ax_max: 3.0
+      ax_min: -3.0
+    CostCritic:
+      consider_footprint: true
