@@ -1,4 +1,4 @@
-/ari_rgbd_2dnav/add_analyzer_node:
+/ari_rgbd_sensors/add_analyzer_node:
   ros__parameters:
     path: Diagnostics
     hardware:
