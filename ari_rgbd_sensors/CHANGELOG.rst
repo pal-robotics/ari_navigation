@@ -2,6 +2,11 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* update rgbd
+* Contributors: andreacapodacqua
+
 2.1.0 (2025-07-10)
 ------------------
 * Add diagnostic analyzers

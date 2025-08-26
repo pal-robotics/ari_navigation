@@ -2,6 +2,9 @@
 Changelog for package ari_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 2.1.0 (2025-07-10)
 ------------------
 * Add diagnostic analyzers
