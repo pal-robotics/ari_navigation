@@ -2,6 +2,11 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* remove realsense overlay
+* Contributors: antoniobrandi
+
 2.1.2 (2025-08-27)
 ------------------
 

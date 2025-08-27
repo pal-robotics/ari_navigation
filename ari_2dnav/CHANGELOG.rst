@@ -2,6 +2,9 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 2.1.2 (2025-08-27)
 ------------------
 * Missing pal_maps dependency
