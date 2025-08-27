@@ -2,6 +2,11 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Missing pal_maps dependency
+* Contributors: antoniobrandi
+
 2.1.1 (2025-08-26)
 ------------------
 * improved mppi params

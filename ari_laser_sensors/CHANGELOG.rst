@@ -2,6 +2,9 @@
 Changelog for package ari_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 2.1.1 (2025-08-26)
 ------------------
 
