@@ -14,8 +14,6 @@
   
   <exec_depend condition="$PAL_DISTRO >= alum">realsense2_camera</exec_depend>
   <exec_depend condition="$PAL_DISTRO >= alum">realsense_camera_cfg</exec_depend>
-  <exec_depend condition="$PAL_DISTRO >= alum">realsense2_camera_deprecated</exec_depend>
-  <exec_depend condition="$PAL_DITRO >= alum">realsense_deprecated_camera_cfg</exec_depend>
 
   <exec_depend>ament_index_python</exec_depend>
   <exec_depend>diagnostic_aggregator</exec_depend>

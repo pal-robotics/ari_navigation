@@ -18,12 +18,6 @@ if(pal_configuration_cmake_FOUND)
     RESOURCE_NAME
       realsense_camera_cfg
   )
-  pal_register_configs(
-    CONFIGS
-      params/00_stereo_realsense-t265_ari.yaml
-    RESOURCE_NAME
-      realsense_deprecated_camera_cfg
-  )
 elseif(DEFINED ENV{PAL_DISTRO})
   message(FATAL_ERROR "The pal_configuration_cmake package was not found. Configurations not registered.")
 endif()
