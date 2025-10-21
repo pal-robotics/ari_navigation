@@ -40,7 +40,7 @@ def generate_launch_description():
         name=torso_front_camera_node,
         output='screen',
         emulate_tty=True,
-        namespace='torso_front_rgbd_camera',
+        namespace='',
         parameters=torso_front_camera_config["parameters"],
         remappings=torso_front_camera_config["remappings"],
     )
