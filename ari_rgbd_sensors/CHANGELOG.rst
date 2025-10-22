@@ -2,6 +2,11 @@
 Changelog for package ari_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* removed camera namespace from realsense driver
+* Contributors: martinaannicelli
+
 2.2.0 (2025-08-27)
 ------------------
 * remove realsense overlay
