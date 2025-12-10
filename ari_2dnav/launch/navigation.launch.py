@@ -31,6 +31,7 @@ def generate_launch_description():
     planner_server_node = 'planner_server'
     global_costmap_node = 'global_costmap'
     behavior_server_node = 'behavior_server'
+    smoother_server_node = 'smoother_server'
     waypoint_follower_node = 'waypoint_follower'
     lifecycle_manager_node = 'lifecycle_manager_navigation'
 
@@ -67,6 +68,12 @@ def generate_launch_description():
     behavior_server_config = get_pal_configuration(
         pkg='nav2_behaviors',
         node=behavior_server_node,
+        ld=ld,
+        cmdline_args=['use_sim_time'],
+    )
+    smoother_server_config = get_pal_configuration(
+        pkg='nav2_smoother',
+        node=smoother_server_node,
         ld=ld,
         cmdline_args=['use_sim_time'],
     )
@@ -126,6 +133,16 @@ def generate_launch_description():
         remappings=behavior_server_config['remappings'],
     )
 
+    smoother_server = Node(
+        package='nav2_smoother',
+        executable='smoother_server',
+        name=smoother_server_node,
+        output='screen',
+        emulate_tty=True,
+        parameters=smoother_server_config['parameters'],
+        remappings=smoother_server_config['remappings'],
+    )
+
     waypoint_follower = Node(
         package='nav2_waypoint_follower',
         executable='waypoint_follower',
@@ -163,6 +180,7 @@ def generate_launch_description():
     ld.add_action(controller_server)
     ld.add_action(planner_server)
     ld.add_action(behavior_server)
+    ld.add_action(smoother_server)
     ld.add_action(waypoint_follower)
     ld.add_action(lifecycle_manager)
     ld.add_action(nav2_analyzer)
