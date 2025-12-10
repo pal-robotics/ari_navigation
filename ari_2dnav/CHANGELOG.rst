@@ -2,6 +2,11 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Use path drawer
+* Contributors: antoniobrandi
+
 2.2.1 (2025-10-22)
 ------------------
 
