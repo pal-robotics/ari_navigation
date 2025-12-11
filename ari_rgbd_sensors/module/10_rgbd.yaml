@@ -1,2 +1,2 @@
 rgbd:
-  launch: "ari_rgbd_sensors rgbd_@torso_front_camera_model@.launch.py"
+  launch: "ari_rgbd_sensors rgbd.launch.py torso_front_camera_model:=@torso_front_camera_model@"

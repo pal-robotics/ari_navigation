@@ -1,0 +1,9 @@
+/torso_front_floor_filter:
+  use_if:
+    robot_type: ari
+    torso_front_camera_model: realsense-d435i
+  use_preset: "floor_filter_near.yaml"
+
+  remappings:
+    input: "${namespace}/torso_front_rgbd_camera/depth/color/points"
+    output: "${namespace}/torso_front_rgbd_camera/obstacles/points"
