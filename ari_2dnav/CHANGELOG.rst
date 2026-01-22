@@ -2,6 +2,11 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* added navigation skills
+* Contributors: antoniobrandi
+
 2.4.0 (2025-12-11)
 ------------------
 
