@@ -2,6 +2,11 @@
 Changelog for package ari_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fix robot type
+* Contributors: antoniobrandi
+
 2.5.0 (2026-01-22)
 ------------------
 * added navigation skills
