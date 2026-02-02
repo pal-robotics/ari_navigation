@@ -6,6 +6,8 @@
     footprint: "[[0.1575, 0.2795], [-0.5975, 0.2795], [-0.5975, -0.2795], [0.1575, -0.2795]]"
 
 /controller_server:
+  use_if:
+    robot_type: ari
   ros__parameters:
     controller_frequency: 25.0
     yaw_goal_tolerance: 0.3
